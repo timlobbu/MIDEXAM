@@ -1,0 +1,199 @@
+#main {
+    padding-bottom: 10%;
+    margin-left: -10%;
+    margin-right: -10%;
+    font-family: roboto;
+  }
+  #main-header {
+    position: relative;
+    background-color: #0b034d;
+  }
+  #header-title {
+    position: relative;
+  }
+  #home-title {
+    position: relative;
+    font-size: 60%;
+    padding-left: 20px;
+  }
+  #about-title {
+    position: relative;
+    font-size: 60%;
+    padding-left: 20px;
+  }
+  #body-page {
+    background-color: #ffb997;
+  }
+  #main2 {
+    border-color: transparent;
+  }
+  #mainAbout{
+    border-color: transparent;
+    margin-bottom: 25%;
+  }
+  .columnLeft {
+    float: left;
+    width: 66.66%;
+  }
+  .columnRight {
+    float: right;
+    width: 33.33%;
+  }
+  #showForm {
+    height: 35px;
+    width: 30%;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #0b034d;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  #showForm:hover {
+    background-color: purple;
+    opacity: 1;
+  }
+  #facultyDropdown {
+    font-size: 70%;
+    padding: 5px;
+  }
+  #prodiDropdown {
+    font-size: 70%;
+    padding: 5px;
+  }
+  #facultyDropdown {
+    position: relative;
+    width: 85%;
+    right: 15px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    border-color: lightgray;
+  }
+  #facultyBtn {
+    position: absolute;
+  }
+  #prodiDropdown {
+    position: relative;
+    width: 85%;
+    right: 15px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    border-color: lightgray;
+  }
+  #prodiBtn {
+    position: absolute;
+  }
+  
+  #searchStudent:hover {
+    opacity: 1;
+    background-color: lightyellow;
+  }
+  #searchStudent:focus {
+    background-color: lightyellow;
+  }
+  #buttonAddStudent {
+    background-color: #0b034d;
+    width: 95%;
+    height: 35px;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  #buttonAddStudent:hover {
+    opacity: 1;
+    background-color: purple;
+  }
+  #rowDelete {
+    background-color: red;
+  }
+  .fa-user-minus {
+    color: white;
+  }
+  th:nth-child(5){
+    text-align: left;
+  }
+  th:nth-child(6){
+    text-align: center;
+  
+  }
+  td:nth-child(6) {
+    text-align: center;
+  
+  }
+  th:nth-child(1){
+    padding-left: 15px;
+  
+  }
+  td:nth-child(1) {
+    padding-left: 15px;
+  
+  }
+  td{
+    height: 50px;
+  }
+  #studentTable{
+    width: 100%;
+    table-layout: fixed;
+  }
+  tr:nth-child(odd){
+    background:#f2f2f2;
+  }
+  th{
+    background-color: white;
+  }
+  #searchStudent {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: lightgray;
+    transition: 0.3s;
+    box-shadow: 2px 2px lightgray;
+    border-right-color: lightgrey;
+    border-right-color: lightgray;
+    padding-left: 35px;
+  }
+  #searchIconStudent{
+    position: relative;
+    bottom: -33px;
+    left: 10px;
+  }
+  /* #searchButton{
+    color: white;
+    float: right;
+    width: 40px;
+    height: 45px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color:#0b034d;
+    border-color: #0b034d;
+    border-right-color: white;
+    border-bottom-color: #0b034d;
+    border-left-width: 0px;
+    box-shadow: 2px 2px lightgray;
+    border-width: 2px;
+  } */
+  .filterButton{
+    color: aqua;
+    background-color: #0b034d;
+    border-radius: 4px;
+    box-shadow: 1px 1px aqua;
+    border-color: transparent;
+  }
+  .filterDropdown{
+    box-shadow: 1px 1px lightgray;
+  }
+  .deleteButton{
+    border-color: transparent;
+    border-radius: 4px;
+  }
+  .footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #0b034d;
+    color: white;
+    text-align: center;
+  }
